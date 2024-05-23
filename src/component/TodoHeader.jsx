@@ -1,6 +1,11 @@
 function TodoHeader() {
     
-    return <h1>TODO 앱 😀</h1>
+    return (
+        <div>
+            <h1>TODO 앱 😀</h1>
+            <span>hello</span>
+        </div>
+    )
 }
 
 export default TodoHeader;
